@@ -1,0 +1,140 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin : 0;
+    padding : 0;
+    font-family: 'Arima Madurai', cursive;
+    cursor: default;
+    background: linear-gradient( #EFF8FF, #DDDDDD);
+}
+
+.navigate {
+    list-style-type: none;
+}
+
+.nav-item {
+    color :cornsilk;
+    text-decoration: none;
+}
+
+.nav {
+    /* width :100%; */
+    /* overflow: hidden; */
+    height: 2000px;
+}
+
+li {
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+h1 {
+    top: 6px;
+    position: absolute;
+    left: 85%;
+    color: antiquewhite;
+}
+
+.left {
+    width: 100%;
+    background-color: black;
+    /* position: fixed; */
+    /* float: initial; */
+    min-height: inherit;
+    position: fixed;
+    padding-bottom: 20px;
+    padding-left: 2rem;
+    /* padding-top: 1rem; */
+    float: initial;
+}
+
+li a:hover{
+    font-size: 18px;
+    color : #FB7AFC;
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+#about {
+    width: 70%;
+    font-size: 25px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    line-height: 40px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 150px;
+}
+
+.hello {
+    font-size: 25px;
+}
+
+#career-obj {
+    width: 1000px;
+    font-size: 25px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    line-height: 40px; 
+    font-family: 'Noto Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#skills {
+    width: 60%;
+    margin: 40px auto 0 auto;
+    font-size: 20px;
+}
+
+.skill li{
+    border-bottom: 1px solid grey;
+    padding: 8px;
+    width : 75%;
+}
+
+.sub-heading {
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+} 
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+td {
+    border: 1px solid grey;
+}
+
+th {
+    border: 1px solid grey;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto 0 auto;
+}
+
+.contacts a{
+    padding-right: 20px;
+    padding-left: 20px;
+    /* width: 250px;
+    margin: 40px auto 0 auto; */
+}
+
+.contacts {
+    width: 400px;
+    margin: 40px auto 0 auto;
+}
+/* 
+div {
+    height: 200%;
+} */
